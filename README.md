@@ -14,7 +14,7 @@ why we used that rather than use a different one
 (some where just the norm to use but he didn't say that)
 
 I haven't checked any free tutorials but the quality would
-probably be the same so I don't recommend anyone buying it# ROS_udemy
+probably be the same so I don't recommend anyone buying it
 
 I got the code/rosCode/turtlebot3_ws/src/turtlebot3_simulations from
 this repo https://github.com/ROBOTIS-GIT/turtlebot3_simulations
