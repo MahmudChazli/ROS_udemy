@@ -1,0 +1,63 @@
+
+------DOCUMENTAITION-LINKS------------------------
+
+- https://wiki.ros.org/urdf
+
+- https://wiki.ros.org/urdf/XML
+
+- https://wiki.ros.org/xacro
+
+- https://wiki.ros.org/urdf/XML/link (I used this alot)
+
+
+
+------LAUNCH--------------------------------------
+
+- ros2 launch urdf_tutorial display.launch.py model:=urdfFileDirectory
+	(A simple way to run urdf files)
+
+- ros2 launch folderName display.launch.py
+	(this is for when you have everything set up)
+	(check either ros2_ws/src/simple_robot_description)
+	(or ros2_ws/src/car_homework_description for how it's done)
+	
+- ros2 launch gazebo_ros gazebo.launch.py (launches gazebo)
+	(after doing this run the urdf/xacro files)
+	(and use the run gazebo_ros command to load the file)
+
+
+
+------RUN-----------------------------------------
+
+- ros2 run tf2_tools view_frames -o NewPdfFileName
+	(this creates a graph for the urdf file that is running)
+	
+- ros2 run robot_state_publisher robot_state_publisher --ros-args -p robot_description:="$(xacro directory/fileName.urdf/xacro)"
+	(this is the proper way to run urdf/xacro files)
+	(run this command inside the folder that contains the urdf/xacro file)
+	
+- ros2 run rviz2 rviz2
+	(this runs the sandbox app thing)
+	(change the "Fixed Frame" to what you want it to be ex. base_link)
+	(and add "RobotModel" and "TF" using the add button on the lower left side)
+	
+- ros2 run joint_state_publisher_gui joint_state_publisher_gui
+	(this runs the joint state publisher)
+	(it's the thing that lets you play with the variables)
+	
+- ros2 run gazebo_ros spawn_entity.py -topic robot_description -entity my_robot
+	(after launching gazebo and runing you urdf/xacro files you use this to load them)
+	
+	
+
+------TOPIC---------------------------------------
+
+- ros2 topic pub /cmd_vel geometry_msgs/msg/Twist "{linear: {x: 0.5}, angular: {z: 0}}"
+	(this makes the ros2_ws/src/car_homework_bringup/launch/car_homework.launch.xml car moves forward)
+
+
+
+
+
+
+

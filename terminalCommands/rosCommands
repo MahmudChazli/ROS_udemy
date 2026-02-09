@@ -1,0 +1,173 @@
+
+
+-------COLCON BUILD----------------------------------------------------
+
+- colcon build (you use this command in the project folder)
+  (when making a new project in the project folder type this)
+  (make a src folder before/after typing this command)
+  (you use this command every time you make a change in the code or make a new file/folder)
+  
+  **** Recommended
+- colcon build --packages-select packageName --symlink-install
+	(makes it so that you don't have to run the build command every time you change something)
+	(you still need to run it if you made a new file/folder)
+	**** use this for bigger projects it would take a long time to build everything
+
+	***** Recommended
+-	colcon build --packages-select packageName
+	(if you want to update a specific package)
+	*****
+
+
+-------GEDIT SOURCE----------------------------------------------------
+
+- gedit ~/.bashrc (opnes txt editor when ran)
+	(paste "source ~/project_name/install/setup.bash" at the bottom)
+	(it makes it so that ubuntu sees the project)
+	
+	
+- source install/setup.bash (you could also use this command)
+  
+
+
+-------PACKAGE CREATION------------------------------------------------
+
+- ros2 pkg create projName_codeLang_pkg --build-type ament_python --dependencies rclpy
+	(creates the package. research before using)
+	(this is for python packages)
+	
+	
+- ros2 pkg create projName_interfaces
+	(this creates a project folder for the interface)
+	(you mainly do it as a sub folder not the main one)
+
+
+
+-------SOURCE----------------------------------------------------------
+
+- source ~/.bashrc
+	(if the program is not loading after you ran colcon build --packages-select packageName nodeName --symlink-install)
+	(for me it just fixed it self after a while it works on newly opened terminals)
+
+
+
+-------RUN-------------------------------------------------------------
+
+- ros2 run packageName nodeName (just the nodeName no .py)
+  (runs your program)
+  
+  
+  *********
+  (you can either type -r for remap or --remap, also -p for parameter or --parameter)
+
+- ros2 run packageName nodeName --ros-args --remap __node:=node_new_name
+  (this changes the node name that is run)
+  (it helps when you are running multiple of the same nodes)
+
+
+- ros2 run packageName nodeName --ros-args -r serverName:=newServerName
+	(this changes the server name that is run)
+	(it helps when you are running multiple of the same servers)
+	
+- ros2 run packageName nodeName --ros-args -p parameterName:=anything (ex. anything = value/string)
+	(this changes the server name that is run)
+	(it helps when you are running multiple of the same servers)
+
+  *********
+  
+  
+
+****turtlesim******
+
+- ros2 run turtlesim turtlesim_node
+	(turtle simulator)
+
+- ros2 run tertlesim turtlesim_teleop_key
+	(lets you control the turtle on the screen)
+
+*******************
+
+- ros2 run -h 
+	(shows the commands for ros2 run)
+
+
+
+-------LAUNCH----------------------------------------------------------
+
+- ros2 launch pkgName fileName.launch.py
+	(if you are launching a gazebo file and it keeps giving you this error)
+	(:type = gazebo::rendering::Camera*]: Assertion `px != 0' failed.)
+	(try sourcing gazebo ". /usr/share/gazebo/setup.sh")
+	(the dot means source you can type "source /usr/share/gazebo/setup.sh")
+	
+	(it took me more than six hours trying to figure out what the problem was)
+	(the problem was that I was trying to understand the problem using ai)
+	(all I needed to do was just paste the error message onto goolge and the first resault worked)
+	(I lost my sanity and six hours of my time trying to figure this f###### s### out)
+	(https://answers.ros.org/question/358847/)
+
+
+
+-------NODE------------------------------------------------------------
+
+- ros2 node list
+	(shows a list of the nodes that are running)
+
+- ros2 node info /nodeName
+	(shows the channels for the node)
+	(the node needs to be running)
+
+
+
+-------TOPIC-----------------------------------------------------------
+
+- ros2 topic list
+	(lists the topics that have been published)
+	(to publish a topic you need to start a node and have this line in it)
+	(elf.create_publisher check rosCode for how this works line 6)
+	
+- ros2 topic echo channelName
+	(you get the channel name from ros2 topic list)
+	(this shows you what the topic is sending)
+
+- ros2 topci info channelName
+	(this gives you the specifics of the channel)
+	(it helps when you need to know the position of somethin)
+	
+	(check turtlesim_ws/turtlesim_py_pkg/turtlesim_py_pkg/pathfinder)
+	(for the libraries we have "from turtlesim.msg import Pose)
+	(we found this in the info type. the dot is a slash '/' in python)
+
+
+
+-------PARAM-----------------------------------------------------------
+
+- ros2 param list (lists the parameters that are available)
+
+- ros2 param get /nodeName parameterName
+	(you get the nodeName and the parameter from the param list)
+	(the paramters are the ones under the nodeName)
+
+
+
+-------RQT-------------------------------------------------------------
+
+- rqt
+	(after selecting Plugins, Introspection and Node Graph)
+	(you can see the nodes that are running at the moment)
+	(you might need to refresh the page to see them)
+	
+- rqt_graph
+	(rather than navigating to the node graph it just starts there)
+
+
+
+-------service---------------------------------------------------------
+
+- ros2 service list (lists the services available)
+
+- ros2 service call serviceListName something(maybe something =? interface)
+	(I'm not sure what the somethign is)
+
+
+

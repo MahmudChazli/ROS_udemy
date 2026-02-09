@@ -1,0 +1,10 @@
+- create_timer(x seconds, thing)
+
+	(this tells the program to run the thing every x seconds)
+	(used in ros2_ws/src/simple_py_pkg/simple_py_pkg/counter_node.py)
+
+- self.create_publisher(String, "name", QoS_profile)
+
+- Node.declare_parameter("parameter_name", "defaultParameter")
+	(you can use it without the default parameter)
+	(you can give it the parameter before, while or after you run the Node )

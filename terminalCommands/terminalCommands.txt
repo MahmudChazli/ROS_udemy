@@ -1,0 +1,26 @@
+- ls (shows everything in the folder you are currently in)
+
+- cd (it works the same way it does on widows only diference is that they use forward slash rather than backwards slash)
+
+- mkdir name (creates a new folder)
+
+- touch name.something (creates a new file)
+
+- rm name.something (deletes the specified file)
+
+- rm -rf folderName (deletes the specified folder)
+
+- chmod +x pythonFile (activates a python file for ros2)
+											(the file changes color when activated)
+
+- ./pythonFile (runs the pythonFile)
+
+- git clone reposetoryThing
+	(for the reposetoryThing you have to copy the link in the green code button in the reposetory)
+	(this makes a clone of a reposetory)
+	
+- cp fileName newFileName (copies a file)
+
+- export TURTLEBOT3_MODEL=burger 
+	(this is for when you are running something in gazebo)
+	(it givez you a robot model)

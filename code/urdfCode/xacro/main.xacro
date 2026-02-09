@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<robot name="main" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <xacro:include filename="colors.xacro"/>
+  <xacro:include filename="test.xacro"/>
+
+
+
+</robot>
