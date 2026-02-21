@@ -1,0 +1,34 @@
+[0.520s] Invoking command in '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/simple_py_pkg': AMENT_PREFIX_PATH=/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/simple_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_py_pkg/lib/python3.10/site-packages:/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/simple_py_pkg/build --no-deps symlink_data
+[0.737s] running develop
+[0.881s] running egg_info
+[0.882s] creating simple_py_pkg.egg-info
+[0.882s] writing simple_py_pkg.egg-info/PKG-INFO
+[0.882s] writing dependency_links to simple_py_pkg.egg-info/dependency_links.txt
+[0.882s] writing entry points to simple_py_pkg.egg-info/entry_points.txt
+[0.882s] writing requirements to simple_py_pkg.egg-info/requires.txt
+[0.882s] writing top-level names to simple_py_pkg.egg-info/top_level.txt
+[0.882s] writing manifest file 'simple_py_pkg.egg-info/SOURCES.txt'
+[0.884s] reading manifest file 'simple_py_pkg.egg-info/SOURCES.txt'
+[0.884s] writing manifest file 'simple_py_pkg.egg-info/SOURCES.txt'
+[0.885s] running build_ext
+[0.886s] Creating /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_py_pkg/lib/python3.10/site-packages/simple-py-pkg.egg-link (link to .)
+[0.886s] Installing add_two_ints_client_node script to /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_py_pkg/lib/simple_py_pkg
+[0.886s] Installing add_two_ints_client_oop_node script to /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_py_pkg/lib/simple_py_pkg
+[0.887s] Installing add_two_ints_server_node script to /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_py_pkg/lib/simple_py_pkg
+[0.887s] Installing components_status_publisher script to /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_py_pkg/lib/simple_py_pkg
+[0.887s] Installing counter_node script to /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_py_pkg/lib/simple_py_pkg
+[0.887s] Installing multiply_two_ints_client script to /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_py_pkg/lib/simple_py_pkg
+[0.887s] Installing multiply_two_ints_server script to /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_py_pkg/lib/simple_py_pkg
+[0.887s] Installing py_node script to /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_py_pkg/lib/simple_py_pkg
+[0.887s] Installing remote_controller script to /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_py_pkg/lib/simple_py_pkg
+[0.887s] Installing robot_command_publisher script to /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_py_pkg/lib/simple_py_pkg
+[0.887s] Installing television_node script to /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_py_pkg/lib/simple_py_pkg
+[0.887s] 
+[0.887s] Installed /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/simple_py_pkg
+[0.887s] running symlink_data
+[0.887s] creating /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_py_pkg/share/ament_index
+[0.888s] creating /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_py_pkg/share/ament_index/resource_index
+[0.888s] creating /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_py_pkg/share/ament_index/resource_index/packages
+[0.888s] symbolically linking /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/simple_py_pkg/resource/simple_py_pkg -> /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_py_pkg/share/ament_index/resource_index/packages
+[0.888s] symbolically linking /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/simple_py_pkg/package.xml -> /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_py_pkg/share/simple_py_pkg
+[0.906s] Invoked command in '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/simple_py_pkg' returned '0': AMENT_PREFIX_PATH=/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/simple_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_py_pkg/lib/python3.10/site-packages:/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/simple_py_pkg/build --no-deps symlink_data

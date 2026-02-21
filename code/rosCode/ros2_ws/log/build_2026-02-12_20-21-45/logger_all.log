@@ -1,0 +1,511 @@
+[0.081s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.081s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7e2bb2714e50>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7e2bb2714850>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7e2bb2714850>>)
+[0.216s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.216s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.216s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.216s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.216s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.216s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.216s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_homework_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_homework_bringup) by extension 'ignore'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_homework_bringup) by extension 'ignore_ament_install'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_homework_bringup) by extensions ['colcon_pkg']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_homework_bringup) by extension 'colcon_pkg'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_homework_bringup) by extensions ['colcon_meta']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_homework_bringup) by extension 'colcon_meta'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_homework_bringup) by extensions ['ros']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_homework_bringup) by extension 'ros'
+[0.228s] DEBUG:colcon.colcon_core.package_identification:Package 'src/car_homework_bringup' with type 'ros.ament_cmake' and name 'car_homework_bringup'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_homework_description) by extensions ['ignore', 'ignore_ament_install']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_homework_description) by extension 'ignore'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_homework_description) by extension 'ignore_ament_install'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_homework_description) by extensions ['colcon_pkg']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_homework_description) by extension 'colcon_pkg'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_homework_description) by extensions ['colcon_meta']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_homework_description) by extension 'colcon_meta'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_homework_description) by extensions ['ros']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_homework_description) by extension 'ros'
+[0.229s] DEBUG:colcon.colcon_core.package_identification:Package 'src/car_homework_description' with type 'ros.ament_cmake' and name 'car_homework_description'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_py_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_py_pkg) by extension 'ignore'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_py_pkg) by extension 'ignore_ament_install'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_py_pkg) by extensions ['colcon_pkg']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_py_pkg) by extension 'colcon_pkg'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_py_pkg) by extensions ['colcon_meta']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_py_pkg) by extension 'colcon_meta'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_py_pkg) by extensions ['ros']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_py_pkg) by extension 'ros'
+[0.230s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lidar_py_pkg' with type 'ros.ament_python' and name 'lidar_py_pkg'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_bringup) by extension 'ignore'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_bringup) by extension 'ignore_ament_install'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_bringup) by extensions ['colcon_pkg']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_bringup) by extension 'colcon_pkg'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_bringup) by extensions ['colcon_meta']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_bringup) by extension 'colcon_meta'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_bringup) by extensions ['ros']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_bringup) by extension 'ros'
+[0.231s] DEBUG:colcon.colcon_core.package_identification:Package 'src/simple_bringup' with type 'ros.ament_cmake' and name 'simple_bringup'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_interfaces_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_interfaces_pkg) by extension 'ignore'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_interfaces_pkg) by extension 'ignore_ament_install'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_interfaces_pkg) by extensions ['colcon_pkg']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_interfaces_pkg) by extension 'colcon_pkg'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_interfaces_pkg) by extensions ['colcon_meta']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_interfaces_pkg) by extension 'colcon_meta'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_interfaces_pkg) by extensions ['ros']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_interfaces_pkg) by extension 'ros'
+[0.231s] DEBUG:colcon.colcon_core.package_identification:Package 'src/simple_interfaces_pkg' with type 'ros.ament_cmake' and name 'simple_interfaces_pkg'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_py_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_py_pkg) by extension 'ignore'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_py_pkg) by extension 'ignore_ament_install'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_py_pkg) by extensions ['colcon_pkg']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_py_pkg) by extension 'colcon_pkg'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_py_pkg) by extensions ['colcon_meta']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_py_pkg) by extension 'colcon_meta'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_py_pkg) by extensions ['ros']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_py_pkg) by extension 'ros'
+[0.232s] DEBUG:colcon.colcon_core.package_identification:Package 'src/simple_py_pkg' with type 'ros.ament_python' and name 'simple_py_pkg'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_robot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_robot_description) by extension 'ignore'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_robot_description) by extension 'ignore_ament_install'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_robot_description) by extensions ['colcon_pkg']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_robot_description) by extension 'colcon_pkg'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_robot_description) by extensions ['colcon_meta']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_robot_description) by extension 'colcon_meta'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_robot_description) by extensions ['ros']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_robot_description) by extension 'ros'
+[0.233s] DEBUG:colcon.colcon_core.package_identification:Package 'src/simple_robot_description' with type 'ros.ament_cmake' and name 'simple_robot_description'
+[0.233s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.233s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.233s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.233s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.233s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.255s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.255s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.256s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/mahmudch/robot_ws/install
+[0.257s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 443 installed packages in /opt/ros/humble
+[0.259s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'car_homework_description' build argument 'cmake_args' from command line to 'None'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'car_homework_description' build argument 'cmake_target' from command line to 'None'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'car_homework_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'car_homework_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'car_homework_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'car_homework_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'car_homework_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'car_homework_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'car_homework_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.302s] DEBUG:colcon.colcon_core.verb:Building package 'car_homework_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/car_homework_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/car_homework_description', 'merge_install': False, 'path': '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/src/car_homework_description', 'symlink_install': False, 'test_result_base': None}
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'lidar_py_pkg' build argument 'cmake_args' from command line to 'None'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'lidar_py_pkg' build argument 'cmake_target' from command line to 'None'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'lidar_py_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'lidar_py_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'lidar_py_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'lidar_py_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'lidar_py_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'lidar_py_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'lidar_py_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.303s] DEBUG:colcon.colcon_core.verb:Building package 'lidar_py_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/lidar_py_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/lidar_py_pkg', 'merge_install': False, 'path': '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/src/lidar_py_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'simple_interfaces_pkg' build argument 'cmake_args' from command line to 'None'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'simple_interfaces_pkg' build argument 'cmake_target' from command line to 'None'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'simple_interfaces_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'simple_interfaces_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'simple_interfaces_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'simple_interfaces_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'simple_interfaces_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'simple_interfaces_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'simple_interfaces_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.303s] DEBUG:colcon.colcon_core.verb:Building package 'simple_interfaces_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/simple_interfaces_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg', 'merge_install': False, 'path': '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/src/simple_interfaces_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'simple_robot_description' build argument 'cmake_args' from command line to 'None'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'simple_robot_description' build argument 'cmake_target' from command line to 'None'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'simple_robot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'simple_robot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'simple_robot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'simple_robot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'simple_robot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'simple_robot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'simple_robot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.304s] DEBUG:colcon.colcon_core.verb:Building package 'simple_robot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/simple_robot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_robot_description', 'merge_install': False, 'path': '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/src/simple_robot_description', 'symlink_install': False, 'test_result_base': None}
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'car_homework_bringup' build argument 'cmake_args' from command line to 'None'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'car_homework_bringup' build argument 'cmake_target' from command line to 'None'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'car_homework_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'car_homework_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'car_homework_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'car_homework_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'car_homework_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'car_homework_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'car_homework_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.304s] DEBUG:colcon.colcon_core.verb:Building package 'car_homework_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/car_homework_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/car_homework_bringup', 'merge_install': False, 'path': '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/src/car_homework_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'simple_py_pkg' build argument 'cmake_args' from command line to 'None'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'simple_py_pkg' build argument 'cmake_target' from command line to 'None'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'simple_py_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'simple_py_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'simple_py_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'simple_py_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'simple_py_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'simple_py_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'simple_py_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.305s] DEBUG:colcon.colcon_core.verb:Building package 'simple_py_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/simple_py_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_py_pkg', 'merge_install': False, 'path': '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/src/simple_py_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'simple_bringup' build argument 'cmake_args' from command line to 'None'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'simple_bringup' build argument 'cmake_target' from command line to 'None'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'simple_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'simple_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'simple_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'simple_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'simple_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'simple_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'simple_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.305s] DEBUG:colcon.colcon_core.verb:Building package 'simple_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/simple_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_bringup', 'merge_install': False, 'path': '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/src/simple_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.305s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.306s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.306s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/src/simple_interfaces_pkg' with build type 'ament_cmake'
+[0.306s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/src/simple_interfaces_pkg'
+[0.308s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.308s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.308s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.311s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/src/car_homework_description' with build type 'ament_cmake'
+[0.311s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/src/car_homework_description'
+[0.311s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.311s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.314s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/src/lidar_py_pkg' with build type 'ament_python'
+[0.314s] Level 1:colcon.colcon_core.shell:create_environment_hook('lidar_py_pkg', 'ament_prefix_path')
+[0.314s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/lidar_py_pkg/share/lidar_py_pkg/hook/ament_prefix_path.ps1'
+[0.314s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/lidar_py_pkg/share/lidar_py_pkg/hook/ament_prefix_path.dsv'
+[0.315s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/lidar_py_pkg/share/lidar_py_pkg/hook/ament_prefix_path.sh'
+[0.315s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.315s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.318s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/src/simple_robot_description' with build type 'ament_cmake'
+[0.319s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/src/simple_robot_description'
+[0.319s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.319s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.327s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/simple_interfaces_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mahmudch/robot_ws/install/robot_node_py_pkg:/opt/ros/humble /usr/bin/cmake /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/src/simple_interfaces_pkg -DCMAKE_INSTALL_PREFIX=/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg
+[0.329s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/car_homework_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mahmudch/robot_ws/install/robot_node_py_pkg:/opt/ros/humble /usr/bin/cmake /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/src/car_homework_description -DCMAKE_INSTALL_PREFIX=/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/car_homework_description
+[0.638s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/src/lidar_py_pkg'
+[0.638s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.638s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.649s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/simple_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mahmudch/robot_ws/install/robot_node_py_pkg:/opt/ros/humble /usr/bin/cmake /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/src/simple_robot_description -DCMAKE_INSTALL_PREFIX=/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_robot_description
+[0.650s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/car_homework_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mahmudch/robot_ws/install/robot_node_py_pkg:/opt/ros/humble /usr/bin/cmake /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/src/car_homework_description -DCMAKE_INSTALL_PREFIX=/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/car_homework_description
+[0.651s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/car_homework_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mahmudch/robot_ws/install/robot_node_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/car_homework_description -- -j12 -l12
+[0.686s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/car_homework_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mahmudch/robot_ws/install/robot_node_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/car_homework_description -- -j12 -l12
+[0.695s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/car_homework_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mahmudch/robot_ws/install/robot_node_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/car_homework_description
+[0.717s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(car_homework_description)
+[0.718s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/car_homework_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mahmudch/robot_ws/install/robot_node_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/car_homework_description
+[0.721s] Level 1:colcon.colcon_core.environment:checking '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/car_homework_description' for CMake module files
+[0.722s] Level 1:colcon.colcon_core.environment:checking '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/car_homework_description' for CMake config files
+[0.722s] Level 1:colcon.colcon_core.shell:create_environment_hook('car_homework_description', 'cmake_prefix_path')
+[0.723s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/car_homework_description/share/car_homework_description/hook/cmake_prefix_path.ps1'
+[0.724s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/car_homework_description/share/car_homework_description/hook/cmake_prefix_path.dsv'
+[0.724s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/car_homework_description/share/car_homework_description/hook/cmake_prefix_path.sh'
+[0.725s] Level 1:colcon.colcon_core.environment:checking '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/car_homework_description/bin'
+[0.725s] Level 1:colcon.colcon_core.environment:checking '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/car_homework_description/lib/pkgconfig/car_homework_description.pc'
+[0.726s] Level 1:colcon.colcon_core.environment:checking '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/car_homework_description/lib/python3.10/site-packages'
+[0.726s] Level 1:colcon.colcon_core.environment:checking '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/car_homework_description/bin'
+[0.727s] INFO:colcon.colcon_core.shell:Creating package script '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/car_homework_description/share/car_homework_description/package.ps1'
+[0.728s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/car_homework_description/share/car_homework_description/package.dsv'
+[0.729s] INFO:colcon.colcon_core.shell:Creating package script '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/car_homework_description/share/car_homework_description/package.sh'
+[0.730s] INFO:colcon.colcon_core.shell:Creating package script '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/car_homework_description/share/car_homework_description/package.bash'
+[0.732s] INFO:colcon.colcon_core.shell:Creating package script '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/car_homework_description/share/car_homework_description/package.zsh'
+[0.733s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/car_homework_description/share/colcon-core/packages/car_homework_description)
+[0.734s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(car_homework_description)
+[0.734s] Level 1:colcon.colcon_core.environment:checking '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/car_homework_description' for CMake module files
+[0.735s] Level 1:colcon.colcon_core.environment:checking '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/car_homework_description' for CMake config files
+[0.736s] Level 1:colcon.colcon_core.shell:create_environment_hook('car_homework_description', 'cmake_prefix_path')
+[0.736s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/car_homework_description/share/car_homework_description/hook/cmake_prefix_path.ps1'
+[0.737s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/car_homework_description/share/car_homework_description/hook/cmake_prefix_path.dsv'
+[0.737s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/car_homework_description/share/car_homework_description/hook/cmake_prefix_path.sh'
+[0.738s] Level 1:colcon.colcon_core.environment:checking '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/car_homework_description/bin'
+[0.738s] Level 1:colcon.colcon_core.environment:checking '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/car_homework_description/lib/pkgconfig/car_homework_description.pc'
+[0.739s] Level 1:colcon.colcon_core.environment:checking '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/car_homework_description/lib/python3.10/site-packages'
+[0.739s] Level 1:colcon.colcon_core.environment:checking '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/car_homework_description/bin'
+[0.740s] INFO:colcon.colcon_core.shell:Creating package script '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/car_homework_description/share/car_homework_description/package.ps1'
+[0.741s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/car_homework_description/share/car_homework_description/package.dsv'
+[0.742s] INFO:colcon.colcon_core.shell:Creating package script '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/car_homework_description/share/car_homework_description/package.sh'
+[0.743s] INFO:colcon.colcon_core.shell:Creating package script '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/car_homework_description/share/car_homework_description/package.bash'
+[0.744s] INFO:colcon.colcon_core.shell:Creating package script '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/car_homework_description/share/car_homework_description/package.zsh'
+[0.745s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/car_homework_description/share/colcon-core/packages/car_homework_description)
+[0.746s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/src/car_homework_bringup' with build type 'ament_cmake'
+[0.746s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/src/car_homework_bringup'
+[0.747s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.747s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.758s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/car_homework_bringup': AMENT_PREFIX_PATH=/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/car_homework_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/car_homework_description:/home/mahmudch/robot_ws/install/car_discription:/home/mahmudch/robot_ws/install/robot_node_py_pkg:/opt/ros/humble /usr/bin/cmake /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/src/car_homework_bringup -DCMAKE_INSTALL_PREFIX=/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/car_homework_bringup
+[0.890s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/simple_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mahmudch/robot_ws/install/robot_node_py_pkg:/opt/ros/humble /usr/bin/cmake /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/src/simple_robot_description -DCMAKE_INSTALL_PREFIX=/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_robot_description
+[0.891s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/simple_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mahmudch/robot_ws/install/robot_node_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/simple_robot_description -- -j12 -l12
+[0.927s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/simple_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mahmudch/robot_ws/install/robot_node_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/simple_robot_description -- -j12 -l12
+[0.928s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/simple_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mahmudch/robot_ws/install/robot_node_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/simple_robot_description
+[0.956s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(simple_robot_description)
+[0.956s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/simple_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mahmudch/robot_ws/install/robot_node_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/simple_robot_description
+[0.957s] Level 1:colcon.colcon_core.environment:checking '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_robot_description' for CMake module files
+[0.958s] Level 1:colcon.colcon_core.environment:checking '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_robot_description' for CMake config files
+[0.959s] Level 1:colcon.colcon_core.shell:create_environment_hook('simple_robot_description', 'cmake_prefix_path')
+[0.959s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_robot_description/share/simple_robot_description/hook/cmake_prefix_path.ps1'
+[0.960s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_robot_description/share/simple_robot_description/hook/cmake_prefix_path.dsv'
+[0.960s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_robot_description/share/simple_robot_description/hook/cmake_prefix_path.sh'
+[0.961s] Level 1:colcon.colcon_core.environment:checking '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_robot_description/bin'
+[0.961s] Level 1:colcon.colcon_core.environment:checking '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_robot_description/lib/pkgconfig/simple_robot_description.pc'
+[0.962s] Level 1:colcon.colcon_core.environment:checking '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_robot_description/lib/python3.10/site-packages'
+[0.962s] Level 1:colcon.colcon_core.environment:checking '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_robot_description/bin'
+[0.963s] INFO:colcon.colcon_core.shell:Creating package script '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_robot_description/share/simple_robot_description/package.ps1'
+[0.963s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_robot_description/share/simple_robot_description/package.dsv'
+[0.964s] INFO:colcon.colcon_core.shell:Creating package script '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_robot_description/share/simple_robot_description/package.sh'
+[0.965s] INFO:colcon.colcon_core.shell:Creating package script '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_robot_description/share/simple_robot_description/package.bash'
+[0.965s] INFO:colcon.colcon_core.shell:Creating package script '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_robot_description/share/simple_robot_description/package.zsh'
+[0.966s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_robot_description/share/colcon-core/packages/simple_robot_description)
+[0.966s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(simple_robot_description)
+[0.967s] Level 1:colcon.colcon_core.environment:checking '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_robot_description' for CMake module files
+[0.968s] Level 1:colcon.colcon_core.environment:checking '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_robot_description' for CMake config files
+[0.968s] Level 1:colcon.colcon_core.shell:create_environment_hook('simple_robot_description', 'cmake_prefix_path')
+[0.969s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_robot_description/share/simple_robot_description/hook/cmake_prefix_path.ps1'
+[0.969s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_robot_description/share/simple_robot_description/hook/cmake_prefix_path.dsv'
+[0.970s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_robot_description/share/simple_robot_description/hook/cmake_prefix_path.sh'
+[0.971s] Level 1:colcon.colcon_core.environment:checking '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_robot_description/bin'
+[0.971s] Level 1:colcon.colcon_core.environment:checking '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_robot_description/lib/pkgconfig/simple_robot_description.pc'
+[0.971s] Level 1:colcon.colcon_core.environment:checking '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_robot_description/lib/python3.10/site-packages'
+[0.972s] Level 1:colcon.colcon_core.environment:checking '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_robot_description/bin'
+[0.972s] INFO:colcon.colcon_core.shell:Creating package script '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_robot_description/share/simple_robot_description/package.ps1'
+[0.973s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_robot_description/share/simple_robot_description/package.dsv'
+[0.974s] INFO:colcon.colcon_core.shell:Creating package script '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_robot_description/share/simple_robot_description/package.sh'
+[0.974s] INFO:colcon.colcon_core.shell:Creating package script '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_robot_description/share/simple_robot_description/package.bash'
+[0.975s] INFO:colcon.colcon_core.shell:Creating package script '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_robot_description/share/simple_robot_description/package.zsh'
+[0.976s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_robot_description/share/colcon-core/packages/simple_robot_description)
+[1.020s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/car_homework_bringup' returned '0': AMENT_PREFIX_PATH=/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/car_homework_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/car_homework_description:/home/mahmudch/robot_ws/install/car_discription:/home/mahmudch/robot_ws/install/robot_node_py_pkg:/opt/ros/humble /usr/bin/cmake /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/src/car_homework_bringup -DCMAKE_INSTALL_PREFIX=/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/car_homework_bringup
+[1.022s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/car_homework_bringup': AMENT_PREFIX_PATH=/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/car_homework_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/car_homework_description:/home/mahmudch/robot_ws/install/car_discription:/home/mahmudch/robot_ws/install/robot_node_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/car_homework_bringup -- -j12 -l12
+[1.061s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/car_homework_bringup' returned '0': AMENT_PREFIX_PATH=/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/car_homework_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/car_homework_description:/home/mahmudch/robot_ws/install/car_discription:/home/mahmudch/robot_ws/install/robot_node_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/car_homework_bringup -- -j12 -l12
+[1.063s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/car_homework_bringup': AMENT_PREFIX_PATH=/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/car_homework_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/car_homework_description:/home/mahmudch/robot_ws/install/car_discription:/home/mahmudch/robot_ws/install/robot_node_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/car_homework_bringup
+[1.082s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(car_homework_bringup)
+[1.082s] Level 1:colcon.colcon_core.environment:checking '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/car_homework_bringup' for CMake module files
+[1.083s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/car_homework_bringup' returned '0': AMENT_PREFIX_PATH=/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/car_homework_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/car_homework_description:/home/mahmudch/robot_ws/install/car_discription:/home/mahmudch/robot_ws/install/robot_node_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/car_homework_bringup
+[1.083s] Level 1:colcon.colcon_core.environment:checking '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/car_homework_bringup' for CMake config files
+[1.083s] Level 1:colcon.colcon_core.shell:create_environment_hook('car_homework_bringup', 'cmake_prefix_path')
+[1.084s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/car_homework_bringup/share/car_homework_bringup/hook/cmake_prefix_path.ps1'
+[1.084s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/car_homework_bringup/share/car_homework_bringup/hook/cmake_prefix_path.dsv'
+[1.084s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/car_homework_bringup/share/car_homework_bringup/hook/cmake_prefix_path.sh'
+[1.085s] Level 1:colcon.colcon_core.environment:checking '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/car_homework_bringup/bin'
+[1.085s] Level 1:colcon.colcon_core.environment:checking '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/car_homework_bringup/lib/pkgconfig/car_homework_bringup.pc'
+[1.085s] Level 1:colcon.colcon_core.environment:checking '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/car_homework_bringup/lib/python3.10/site-packages'
+[1.086s] Level 1:colcon.colcon_core.environment:checking '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/car_homework_bringup/bin'
+[1.086s] INFO:colcon.colcon_core.shell:Creating package script '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/car_homework_bringup/share/car_homework_bringup/package.ps1'
+[1.086s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/car_homework_bringup/share/car_homework_bringup/package.dsv'
+[1.087s] INFO:colcon.colcon_core.shell:Creating package script '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/car_homework_bringup/share/car_homework_bringup/package.sh'
+[1.087s] INFO:colcon.colcon_core.shell:Creating package script '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/car_homework_bringup/share/car_homework_bringup/package.bash'
+[1.087s] INFO:colcon.colcon_core.shell:Creating package script '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/car_homework_bringup/share/car_homework_bringup/package.zsh'
+[1.088s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/car_homework_bringup/share/colcon-core/packages/car_homework_bringup)
+[1.088s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(car_homework_bringup)
+[1.088s] Level 1:colcon.colcon_core.environment:checking '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/car_homework_bringup' for CMake module files
+[1.089s] Level 1:colcon.colcon_core.environment:checking '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/car_homework_bringup' for CMake config files
+[1.089s] Level 1:colcon.colcon_core.shell:create_environment_hook('car_homework_bringup', 'cmake_prefix_path')
+[1.089s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/car_homework_bringup/share/car_homework_bringup/hook/cmake_prefix_path.ps1'
+[1.090s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/car_homework_bringup/share/car_homework_bringup/hook/cmake_prefix_path.dsv'
+[1.090s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/car_homework_bringup/share/car_homework_bringup/hook/cmake_prefix_path.sh'
+[1.091s] Level 1:colcon.colcon_core.environment:checking '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/car_homework_bringup/bin'
+[1.091s] Level 1:colcon.colcon_core.environment:checking '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/car_homework_bringup/lib/pkgconfig/car_homework_bringup.pc'
+[1.091s] Level 1:colcon.colcon_core.environment:checking '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/car_homework_bringup/lib/python3.10/site-packages'
+[1.091s] Level 1:colcon.colcon_core.environment:checking '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/car_homework_bringup/bin'
+[1.092s] INFO:colcon.colcon_core.shell:Creating package script '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/car_homework_bringup/share/car_homework_bringup/package.ps1'
+[1.092s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/car_homework_bringup/share/car_homework_bringup/package.dsv'
+[1.093s] INFO:colcon.colcon_core.shell:Creating package script '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/car_homework_bringup/share/car_homework_bringup/package.sh'
+[1.093s] INFO:colcon.colcon_core.shell:Creating package script '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/car_homework_bringup/share/car_homework_bringup/package.bash'
+[1.093s] INFO:colcon.colcon_core.shell:Creating package script '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/car_homework_bringup/share/car_homework_bringup/package.zsh'
+[1.094s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/car_homework_bringup/share/colcon-core/packages/car_homework_bringup)
+[1.112s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/lidar_py_pkg': PYTHONPATH=/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/lidar_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/lidar_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/lidar_py_pkg/build
+[1.356s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/simple_interfaces_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mahmudch/robot_ws/install/robot_node_py_pkg:/opt/ros/humble /usr/bin/cmake /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/src/simple_interfaces_pkg -DCMAKE_INSTALL_PREFIX=/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg
+[1.357s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/simple_interfaces_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mahmudch/robot_ws/install/robot_node_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/simple_interfaces_pkg -- -j12 -l12
+[1.593s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/lidar_py_pkg' returned '0': PYTHONPATH=/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/lidar_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/lidar_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/lidar_py_pkg/build
+[1.595s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/src/lidar_py_pkg': PYTHONPATH=/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/lidar_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/lidar_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lidar_py_pkg build --build-base /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/lidar_py_pkg/build install --record /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/lidar_py_pkg/install.log --single-version-externally-managed install_data --force
+[1.702s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/simple_interfaces_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mahmudch/robot_ws/install/robot_node_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/simple_interfaces_pkg -- -j12 -l12
+[1.704s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/simple_interfaces_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mahmudch/robot_ws/install/robot_node_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/simple_interfaces_pkg
+[1.772s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(simple_interfaces_pkg)
+[1.772s] Level 1:colcon.colcon_core.environment:checking '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg' for CMake module files
+[1.772s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/simple_interfaces_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mahmudch/robot_ws/install/robot_node_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/simple_interfaces_pkg
+[1.773s] Level 1:colcon.colcon_core.environment:checking '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg' for CMake config files
+[1.774s] Level 1:colcon.colcon_core.shell:create_environment_hook('simple_interfaces_pkg', 'cmake_prefix_path')
+[1.774s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/share/simple_interfaces_pkg/hook/cmake_prefix_path.ps1'
+[1.774s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/share/simple_interfaces_pkg/hook/cmake_prefix_path.dsv'
+[1.775s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/share/simple_interfaces_pkg/hook/cmake_prefix_path.sh'
+[1.775s] Level 1:colcon.colcon_core.environment:checking '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/lib'
+[1.775s] Level 1:colcon.colcon_core.shell:create_environment_hook('simple_interfaces_pkg', 'ld_library_path_lib')
+[1.775s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/share/simple_interfaces_pkg/hook/ld_library_path_lib.ps1'
+[1.776s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/share/simple_interfaces_pkg/hook/ld_library_path_lib.dsv'
+[1.776s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/share/simple_interfaces_pkg/hook/ld_library_path_lib.sh'
+[1.776s] Level 1:colcon.colcon_core.environment:checking '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/bin'
+[1.776s] Level 1:colcon.colcon_core.environment:checking '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/lib/pkgconfig/simple_interfaces_pkg.pc'
+[1.777s] Level 1:colcon.colcon_core.environment:checking '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/lib/python3.10/site-packages'
+[1.777s] Level 1:colcon.colcon_core.environment:checking '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/bin'
+[1.777s] INFO:colcon.colcon_core.shell:Creating package script '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/share/simple_interfaces_pkg/package.ps1'
+[1.778s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/share/simple_interfaces_pkg/package.dsv'
+[1.778s] INFO:colcon.colcon_core.shell:Creating package script '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/share/simple_interfaces_pkg/package.sh'
+[1.778s] INFO:colcon.colcon_core.shell:Creating package script '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/share/simple_interfaces_pkg/package.bash'
+[1.779s] INFO:colcon.colcon_core.shell:Creating package script '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/share/simple_interfaces_pkg/package.zsh'
+[1.779s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/share/colcon-core/packages/simple_interfaces_pkg)
+[1.780s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(simple_interfaces_pkg)
+[1.780s] Level 1:colcon.colcon_core.environment:checking '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg' for CMake module files
+[1.780s] Level 1:colcon.colcon_core.environment:checking '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg' for CMake config files
+[1.781s] Level 1:colcon.colcon_core.shell:create_environment_hook('simple_interfaces_pkg', 'cmake_prefix_path')
+[1.781s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/share/simple_interfaces_pkg/hook/cmake_prefix_path.ps1'
+[1.781s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/share/simple_interfaces_pkg/hook/cmake_prefix_path.dsv'
+[1.781s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/share/simple_interfaces_pkg/hook/cmake_prefix_path.sh'
+[1.782s] Level 1:colcon.colcon_core.environment:checking '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/lib'
+[1.782s] Level 1:colcon.colcon_core.shell:create_environment_hook('simple_interfaces_pkg', 'ld_library_path_lib')
+[1.782s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/share/simple_interfaces_pkg/hook/ld_library_path_lib.ps1'
+[1.783s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/share/simple_interfaces_pkg/hook/ld_library_path_lib.dsv'
+[1.783s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/share/simple_interfaces_pkg/hook/ld_library_path_lib.sh'
+[1.783s] Level 1:colcon.colcon_core.environment:checking '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/bin'
+[1.783s] Level 1:colcon.colcon_core.environment:checking '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/lib/pkgconfig/simple_interfaces_pkg.pc'
+[1.783s] Level 1:colcon.colcon_core.environment:checking '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/lib/python3.10/site-packages'
+[1.784s] Level 1:colcon.colcon_core.environment:checking '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/bin'
+[1.784s] INFO:colcon.colcon_core.shell:Creating package script '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/share/simple_interfaces_pkg/package.ps1'
+[1.784s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/share/simple_interfaces_pkg/package.dsv'
+[1.785s] INFO:colcon.colcon_core.shell:Creating package script '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/share/simple_interfaces_pkg/package.sh'
+[1.785s] INFO:colcon.colcon_core.shell:Creating package script '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/share/simple_interfaces_pkg/package.bash'
+[1.786s] INFO:colcon.colcon_core.shell:Creating package script '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/share/simple_interfaces_pkg/package.zsh'
+[1.786s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/share/colcon-core/packages/simple_interfaces_pkg)
+[1.786s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/src/simple_py_pkg' with build type 'ament_python'
+[1.786s] Level 1:colcon.colcon_core.shell:create_environment_hook('simple_py_pkg', 'ament_prefix_path')
+[1.787s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_py_pkg/share/simple_py_pkg/hook/ament_prefix_path.ps1'
+[1.787s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_py_pkg/share/simple_py_pkg/hook/ament_prefix_path.dsv'
+[1.787s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_py_pkg/share/simple_py_pkg/hook/ament_prefix_path.sh'
+[1.788s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.788s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.025s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/src/simple_py_pkg'
+[2.025s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.025s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.029s] Level 1:colcon.colcon_core.environment:checking '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/lidar_py_pkg' for CMake module files
+[2.029s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/src/lidar_py_pkg' returned '0': PYTHONPATH=/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/lidar_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/lidar_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lidar_py_pkg build --build-base /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/lidar_py_pkg/build install --record /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/lidar_py_pkg/install.log --single-version-externally-managed install_data --force
+[2.030s] Level 1:colcon.colcon_core.environment:checking '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/lidar_py_pkg' for CMake config files
+[2.030s] Level 1:colcon.colcon_core.environment:checking '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/lidar_py_pkg/lib'
+[2.030s] Level 1:colcon.colcon_core.environment:checking '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/lidar_py_pkg/bin'
+[2.030s] Level 1:colcon.colcon_core.environment:checking '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/lidar_py_pkg/lib/pkgconfig/lidar_py_pkg.pc'
+[2.030s] Level 1:colcon.colcon_core.environment:checking '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/lidar_py_pkg/lib/python3.10/site-packages'
+[2.031s] Level 1:colcon.colcon_core.shell:create_environment_hook('lidar_py_pkg', 'pythonpath')
+[2.031s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/lidar_py_pkg/share/lidar_py_pkg/hook/pythonpath.ps1'
+[2.031s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/lidar_py_pkg/share/lidar_py_pkg/hook/pythonpath.dsv'
+[2.031s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/lidar_py_pkg/share/lidar_py_pkg/hook/pythonpath.sh'
+[2.032s] Level 1:colcon.colcon_core.environment:checking '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/lidar_py_pkg/bin'
+[2.032s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lidar_py_pkg)
+[2.032s] INFO:colcon.colcon_core.shell:Creating package script '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/lidar_py_pkg/share/lidar_py_pkg/package.ps1'
+[2.033s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/lidar_py_pkg/share/lidar_py_pkg/package.dsv'
+[2.033s] INFO:colcon.colcon_core.shell:Creating package script '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/lidar_py_pkg/share/lidar_py_pkg/package.sh'
+[2.033s] INFO:colcon.colcon_core.shell:Creating package script '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/lidar_py_pkg/share/lidar_py_pkg/package.bash'
+[2.034s] INFO:colcon.colcon_core.shell:Creating package script '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/lidar_py_pkg/share/lidar_py_pkg/package.zsh'
+[2.034s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/lidar_py_pkg/share/colcon-core/packages/lidar_py_pkg)
+[2.334s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/simple_py_pkg': AMENT_PREFIX_PATH=/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/simple_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_py_pkg/lib/python3.10/site-packages:/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/simple_py_pkg/build
+[2.710s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/simple_py_pkg' returned '0': AMENT_PREFIX_PATH=/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/simple_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_py_pkg/lib/python3.10/site-packages:/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/simple_py_pkg/build
+[2.711s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/src/simple_py_pkg': AMENT_PREFIX_PATH=/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/simple_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_py_pkg/lib/python3.10/site-packages:/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/simple_py_pkg build --build-base /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/simple_py_pkg/build install --record /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/simple_py_pkg/install.log --single-version-externally-managed install_data --force
+[2.955s] Level 1:colcon.colcon_core.environment:checking '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_py_pkg' for CMake module files
+[2.956s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/src/simple_py_pkg' returned '0': AMENT_PREFIX_PATH=/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/simple_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_py_pkg/lib/python3.10/site-packages:/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/simple_py_pkg build --build-base /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/simple_py_pkg/build install --record /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/simple_py_pkg/install.log --single-version-externally-managed install_data --force
+[2.956s] Level 1:colcon.colcon_core.environment:checking '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_py_pkg' for CMake config files
+[2.956s] Level 1:colcon.colcon_core.environment:checking '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_py_pkg/lib'
+[2.956s] Level 1:colcon.colcon_core.environment:checking '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_py_pkg/bin'
+[2.956s] Level 1:colcon.colcon_core.environment:checking '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_py_pkg/lib/pkgconfig/simple_py_pkg.pc'
+[2.956s] Level 1:colcon.colcon_core.environment:checking '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_py_pkg/lib/python3.10/site-packages'
+[2.956s] Level 1:colcon.colcon_core.shell:create_environment_hook('simple_py_pkg', 'pythonpath')
+[2.957s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_py_pkg/share/simple_py_pkg/hook/pythonpath.ps1'
+[2.957s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_py_pkg/share/simple_py_pkg/hook/pythonpath.dsv'
+[2.957s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_py_pkg/share/simple_py_pkg/hook/pythonpath.sh'
+[2.959s] Level 1:colcon.colcon_core.environment:checking '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_py_pkg/bin'
+[2.959s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(simple_py_pkg)
+[2.960s] INFO:colcon.colcon_core.shell:Creating package script '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_py_pkg/share/simple_py_pkg/package.ps1'
+[2.962s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_py_pkg/share/simple_py_pkg/package.dsv'
+[2.964s] INFO:colcon.colcon_core.shell:Creating package script '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_py_pkg/share/simple_py_pkg/package.sh'
+[2.966s] INFO:colcon.colcon_core.shell:Creating package script '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_py_pkg/share/simple_py_pkg/package.bash'
+[2.967s] INFO:colcon.colcon_core.shell:Creating package script '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_py_pkg/share/simple_py_pkg/package.zsh'
+[2.968s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_py_pkg/share/colcon-core/packages/simple_py_pkg)
+[2.969s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/src/simple_bringup' with build type 'ament_cmake'
+[2.970s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/src/simple_bringup'
+[2.971s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.971s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.980s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/simple_bringup': AMENT_PREFIX_PATH=/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_py_pkg:/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg:/home/mahmudch/robot_ws/install/car_discription:/home/mahmudch/robot_ws/install/robot_node_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_py_pkg/lib/python3.10/site-packages:/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/src/simple_bringup -DCMAKE_INSTALL_PREFIX=/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_bringup
+[3.168s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/simple_bringup' returned '0': AMENT_PREFIX_PATH=/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_py_pkg:/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg:/home/mahmudch/robot_ws/install/car_discription:/home/mahmudch/robot_ws/install/robot_node_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_py_pkg/lib/python3.10/site-packages:/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/src/simple_bringup -DCMAKE_INSTALL_PREFIX=/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_bringup
+[3.169s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/simple_bringup': AMENT_PREFIX_PATH=/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_py_pkg:/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg:/home/mahmudch/robot_ws/install/car_discription:/home/mahmudch/robot_ws/install/robot_node_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_py_pkg/lib/python3.10/site-packages:/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/simple_bringup -- -j12 -l12
+[3.192s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/simple_bringup' returned '0': AMENT_PREFIX_PATH=/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_py_pkg:/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg:/home/mahmudch/robot_ws/install/car_discription:/home/mahmudch/robot_ws/install/robot_node_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_py_pkg/lib/python3.10/site-packages:/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/simple_bringup -- -j12 -l12
+[3.193s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/simple_bringup': AMENT_PREFIX_PATH=/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_py_pkg:/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg:/home/mahmudch/robot_ws/install/car_discription:/home/mahmudch/robot_ws/install/robot_node_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_py_pkg/lib/python3.10/site-packages:/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/simple_bringup
+[3.206s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(simple_bringup)
+[3.207s] Level 1:colcon.colcon_core.environment:checking '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_bringup' for CMake module files
+[3.207s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/simple_bringup' returned '0': AMENT_PREFIX_PATH=/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_py_pkg:/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg:/home/mahmudch/robot_ws/install/car_discription:/home/mahmudch/robot_ws/install/robot_node_py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_py_pkg/lib/python3.10/site-packages:/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/simple_bringup
+[3.207s] Level 1:colcon.colcon_core.environment:checking '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_bringup' for CMake config files
+[3.208s] Level 1:colcon.colcon_core.shell:create_environment_hook('simple_bringup', 'cmake_prefix_path')
+[3.208s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_bringup/share/simple_bringup/hook/cmake_prefix_path.ps1'
+[3.208s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_bringup/share/simple_bringup/hook/cmake_prefix_path.dsv'
+[3.208s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_bringup/share/simple_bringup/hook/cmake_prefix_path.sh'
+[3.209s] Level 1:colcon.colcon_core.environment:checking '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_bringup/bin'
+[3.209s] Level 1:colcon.colcon_core.environment:checking '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_bringup/lib/pkgconfig/simple_bringup.pc'
+[3.209s] Level 1:colcon.colcon_core.environment:checking '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_bringup/lib/python3.10/site-packages'
+[3.209s] Level 1:colcon.colcon_core.environment:checking '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_bringup/bin'
+[3.209s] INFO:colcon.colcon_core.shell:Creating package script '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_bringup/share/simple_bringup/package.ps1'
+[3.210s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_bringup/share/simple_bringup/package.dsv'
+[3.210s] INFO:colcon.colcon_core.shell:Creating package script '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_bringup/share/simple_bringup/package.sh'
+[3.211s] INFO:colcon.colcon_core.shell:Creating package script '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_bringup/share/simple_bringup/package.bash'
+[3.211s] INFO:colcon.colcon_core.shell:Creating package script '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_bringup/share/simple_bringup/package.zsh'
+[3.211s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_bringup/share/colcon-core/packages/simple_bringup)
+[3.211s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(simple_bringup)
+[3.212s] Level 1:colcon.colcon_core.environment:checking '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_bringup' for CMake module files
+[3.212s] Level 1:colcon.colcon_core.environment:checking '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_bringup' for CMake config files
+[3.212s] Level 1:colcon.colcon_core.shell:create_environment_hook('simple_bringup', 'cmake_prefix_path')
+[3.212s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_bringup/share/simple_bringup/hook/cmake_prefix_path.ps1'
+[3.213s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_bringup/share/simple_bringup/hook/cmake_prefix_path.dsv'
+[3.213s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_bringup/share/simple_bringup/hook/cmake_prefix_path.sh'
+[3.213s] Level 1:colcon.colcon_core.environment:checking '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_bringup/bin'
+[3.213s] Level 1:colcon.colcon_core.environment:checking '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_bringup/lib/pkgconfig/simple_bringup.pc'
+[3.214s] Level 1:colcon.colcon_core.environment:checking '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_bringup/lib/python3.10/site-packages'
+[3.214s] Level 1:colcon.colcon_core.environment:checking '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_bringup/bin'
+[3.214s] INFO:colcon.colcon_core.shell:Creating package script '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_bringup/share/simple_bringup/package.ps1'
+[3.214s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_bringup/share/simple_bringup/package.dsv'
+[3.215s] INFO:colcon.colcon_core.shell:Creating package script '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_bringup/share/simple_bringup/package.sh'
+[3.215s] INFO:colcon.colcon_core.shell:Creating package script '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_bringup/share/simple_bringup/package.bash'
+[3.215s] INFO:colcon.colcon_core.shell:Creating package script '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_bringup/share/simple_bringup/package.zsh'
+[3.216s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_bringup/share/colcon-core/packages/simple_bringup)
+[3.216s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.216s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.216s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.216s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.220s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.220s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.220s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.256s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.256s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/local_setup.ps1'
+[3.259s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/_local_setup_util_ps1.py'
+[3.262s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/setup.ps1'
+[3.264s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/local_setup.sh'
+[3.264s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/_local_setup_util_sh.py'
+[3.266s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/setup.sh'
+[3.271s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/local_setup.bash'
+[3.272s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/setup.bash'
+[3.275s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/local_setup.zsh'
+[3.276s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/setup.zsh'

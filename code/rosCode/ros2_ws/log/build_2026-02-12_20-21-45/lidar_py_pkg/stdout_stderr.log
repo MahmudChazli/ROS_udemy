@@ -1,0 +1,32 @@
+running develop
+Removing /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/lidar_py_pkg/lib/python3.10/site-packages/lidar-py-pkg.egg-link (link to .)
+running egg_info
+writing ../../build/lidar_py_pkg/lidar_py_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/lidar_py_pkg/lidar_py_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/lidar_py_pkg/lidar_py_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/lidar_py_pkg/lidar_py_pkg.egg-info/requires.txt
+writing top-level names to ../../build/lidar_py_pkg/lidar_py_pkg.egg-info/top_level.txt
+reading manifest file '../../build/lidar_py_pkg/lidar_py_pkg.egg-info/SOURCES.txt'
+writing manifest file '../../build/lidar_py_pkg/lidar_py_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/lidar_py_pkg/build
+creating /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/lidar_py_pkg/build/lib
+creating /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/lidar_py_pkg/build/lib/lidar_py_pkg
+copying lidar_py_pkg/lidar_data_node.py -> /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/lidar_py_pkg/build/lib/lidar_py_pkg
+copying lidar_py_pkg/__init__.py -> /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/lidar_py_pkg/build/lib/lidar_py_pkg
+running install
+running install_lib
+creating /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/lidar_py_pkg/lib/python3.10/site-packages/lidar_py_pkg
+copying /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/lidar_py_pkg/build/lib/lidar_py_pkg/lidar_data_node.py -> /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/lidar_py_pkg/lib/python3.10/site-packages/lidar_py_pkg
+copying /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/lidar_py_pkg/build/lib/lidar_py_pkg/__init__.py -> /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/lidar_py_pkg/lib/python3.10/site-packages/lidar_py_pkg
+byte-compiling /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/lidar_py_pkg/lib/python3.10/site-packages/lidar_py_pkg/lidar_data_node.py to lidar_data_node.cpython-310.pyc
+byte-compiling /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/lidar_py_pkg/lib/python3.10/site-packages/lidar_py_pkg/__init__.py to __init__.cpython-310.pyc
+running install_data
+copying resource/lidar_py_pkg -> /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/lidar_py_pkg/share/ament_index/resource_index/packages
+copying package.xml -> /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/lidar_py_pkg/share/lidar_py_pkg
+running install_egg_info
+Copying ../../build/lidar_py_pkg/lidar_py_pkg.egg-info to /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/lidar_py_pkg/lib/python3.10/site-packages/lidar_py_pkg-0.0.0-py3.10.egg-info
+running install_scripts
+Installing lidar_data_node script to /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/lidar_py_pkg/lib/lidar_py_pkg
+writing list of installed files to '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/lidar_py_pkg/install.log'

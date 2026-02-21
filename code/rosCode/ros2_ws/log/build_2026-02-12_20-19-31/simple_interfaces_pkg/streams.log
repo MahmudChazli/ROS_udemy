@@ -1,0 +1,229 @@
+[0.021s] Invoking command in '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/simple_interfaces_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mahmudch/robot_ws/install/robot_node_py_pkg:/opt/ros/humble /usr/bin/cmake /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/src/simple_interfaces_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg
+[0.303s] -- The C compiler identification is GNU 11.4.0
+[0.303s] -- The CXX compiler identification is GNU 11.4.0
+[0.303s] -- Detecting C compiler ABI info
+[0.304s] -- Detecting C compiler ABI info - done
+[0.304s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.304s] -- Detecting C compile features
+[0.304s] -- Detecting C compile features - done
+[0.304s] -- Detecting CXX compiler ABI info
+[0.336s] -- Detecting CXX compiler ABI info - done
+[0.347s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.347s] -- Detecting CXX compile features
+[0.348s] -- Detecting CXX compile features - done
+[0.352s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.522s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.597s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.639s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.645s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.654s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.709s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.069s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.287s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.527s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.551s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.554s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.577s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.577s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.577s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.577s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.595s] -- Found PythonExtra: .so  
+[1.637s] -- Configuring done
+[1.664s] -- Generating done
+[1.673s] -- Build files have been written to: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/simple_interfaces_pkg
+[1.679s] Invoked command in '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/simple_interfaces_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mahmudch/robot_ws/install/robot_node_py_pkg:/opt/ros/humble /usr/bin/cmake /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/src/simple_interfaces_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg
+[1.680s] Invoking command in '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/simple_interfaces_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mahmudch/robot_ws/install/robot_node_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/simple_interfaces_pkg -- -j12 -l12
+[1.710s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.719s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.726s] [  5%] Built target ament_cmake_python_symlink_simple_interfaces_pkg
+[2.001s] running egg_info
+[2.002s] creating simple_interfaces_pkg.egg-info
+[2.002s] writing simple_interfaces_pkg.egg-info/PKG-INFO
+[2.002s] writing dependency_links to simple_interfaces_pkg.egg-info/dependency_links.txt
+[2.002s] writing top-level names to simple_interfaces_pkg.egg-info/top_level.txt
+[2.002s] writing manifest file 'simple_interfaces_pkg.egg-info/SOURCES.txt'
+[2.004s] reading manifest file 'simple_interfaces_pkg.egg-info/SOURCES.txt'
+[2.005s] writing manifest file 'simple_interfaces_pkg.egg-info/SOURCES.txt'
+[2.027s] [  5%] Built target ament_cmake_python_build_simple_interfaces_pkg_egg
+[2.085s] [  5%] Built target simple_interfaces_pkg__cpp
+[2.091s] [  7%] [32mBuilding C object CMakeFiles/simple_interfaces_pkg__rosidl_generator_c.dir/rosidl_generator_c/simple_interfaces_pkg/srv/detail/multiply_two_ints__functions.c.o[0m
+[2.091s] [ 10%] [32mBuilding C object CMakeFiles/simple_interfaces_pkg__rosidl_generator_c.dir/rosidl_generator_c/simple_interfaces_pkg/msg/detail/components_status__functions.c.o[0m
+[2.094s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.094s] [ 15%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.094s] [ 17%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.157s] [ 20%] [32m[1mLinking C shared library libsimple_interfaces_pkg__rosidl_generator_c.so[0m
+[2.193s] [ 20%] Built target simple_interfaces_pkg__rosidl_generator_c
+[2.204s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.204s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.204s] [ 28%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.427s] [ 30%] [32mBuilding CXX object CMakeFiles/simple_interfaces_pkg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/simple_interfaces_pkg/msg/components_status__type_support.cpp.o[0m
+[2.430s] [ 33%] [32mBuilding CXX object CMakeFiles/simple_interfaces_pkg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/simple_interfaces_pkg/srv/multiply_two_ints__type_support.cpp.o[0m
+[2.464s] [ 35%] [32mBuilding CXX object CMakeFiles/simple_interfaces_pkg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/simple_interfaces_pkg/msg/detail/components_status__type_support.cpp.o[0m
+[2.467s] [ 38%] [32mBuilding CXX object CMakeFiles/simple_interfaces_pkg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/simple_interfaces_pkg/srv/detail/multiply_two_ints__type_support.cpp.o[0m
+[2.490s] [ 41%] [32mBuilding CXX object CMakeFiles/simple_interfaces_pkg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/simple_interfaces_pkg/msg/detail/dds_fastrtps/components_status__type_support.cpp.o[0m
+[2.494s] [ 43%] [32mBuilding CXX object CMakeFiles/simple_interfaces_pkg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/simple_interfaces_pkg/srv/detail/dds_fastrtps/multiply_two_ints__type_support.cpp.o[0m
+[2.596s] [ 46%] [32mBuilding C object CMakeFiles/simple_interfaces_pkg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/simple_interfaces_pkg/msg/detail/components_status__type_support.c.o[0m
+[2.600s] [ 48%] [32mBuilding C object CMakeFiles/simple_interfaces_pkg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/simple_interfaces_pkg/srv/detail/multiply_two_ints__type_support.c.o[0m
+[2.607s] [ 53%] [32mBuilding CXX object CMakeFiles/simple_interfaces_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/simple_interfaces_pkg/srv/multiply_two_ints__type_support.cpp.o[0m
+[2.607s] [ 53%] [32mBuilding CXX object CMakeFiles/simple_interfaces_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/simple_interfaces_pkg/msg/components_status__type_support.cpp.o[0m
+[2.656s] [ 56%] [32m[1mLinking C shared library libsimple_interfaces_pkg__rosidl_typesupport_introspection_c.so[0m
+[2.662s] [ 58%] [32m[1mLinking CXX shared library libsimple_interfaces_pkg__rosidl_typesupport_c.so[0m
+[2.710s] [ 58%] Built target simple_interfaces_pkg__rosidl_typesupport_introspection_c
+[2.719s] [ 58%] Built target simple_interfaces_pkg__rosidl_typesupport_c
+[2.732s] [ 64%] [32mBuilding CXX object CMakeFiles/simple_interfaces_pkg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/simple_interfaces_pkg/msg/detail/components_status__type_support_c.cpp.o[0m
+[2.732s] [ 64%] [32mBuilding CXX object CMakeFiles/simple_interfaces_pkg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/simple_interfaces_pkg/srv/detail/multiply_two_ints__type_support_c.cpp.o[0m
+[2.950s] [ 66%] [32m[1mLinking CXX shared library libsimple_interfaces_pkg__rosidl_typesupport_cpp.so[0m
+[2.997s] [ 66%] Built target simple_interfaces_pkg__rosidl_typesupport_cpp
+[3.080s] [ 69%] [32m[1mLinking CXX shared library libsimple_interfaces_pkg__rosidl_typesupport_introspection_cpp.so[0m
+[3.143s] [ 69%] Built target simple_interfaces_pkg__rosidl_typesupport_introspection_cpp
+[3.149s] [ 71%] [32m[1mLinking CXX shared library libsimple_interfaces_pkg__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.208s] [ 71%] Built target simple_interfaces_pkg__rosidl_typesupport_fastrtps_cpp
+[3.222s] [ 74%] [32m[1mLinking CXX shared library libsimple_interfaces_pkg__rosidl_typesupport_fastrtps_c.so[0m
+[3.280s] [ 74%] Built target simple_interfaces_pkg__rosidl_typesupport_fastrtps_c
+[3.292s] [ 74%] Built target simple_interfaces_pkg
+[3.305s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[3.672s] [ 76%] Built target simple_interfaces_pkg__py
+[3.698s] [ 82%] [32mBuilding C object CMakeFiles/simple_interfaces_pkg__rosidl_generator_py.dir/rosidl_generator_py/simple_interfaces_pkg/srv/_multiply_two_ints_s.c.o[0m
+[3.698s] [ 82%] [32mBuilding C object CMakeFiles/simple_interfaces_pkg__rosidl_generator_py.dir/rosidl_generator_py/simple_interfaces_pkg/msg/_components_status_s.c.o[0m
+[3.795s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/simple_interfaces_pkg/libsimple_interfaces_pkg__rosidl_generator_py.so[0m
+[3.821s] [ 84%] Built target simple_interfaces_pkg__rosidl_generator_py
+[3.838s] [ 89%] [32mBuilding C object CMakeFiles/simple_interfaces_pkg__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/simple_interfaces_pkg/_simple_interfaces_pkg_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[3.839s] [ 92%] [32mBuilding C object CMakeFiles/simple_interfaces_pkg__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/simple_interfaces_pkg/_simple_interfaces_pkg_s.ep.rosidl_typesupport_c.c.o[0m
+[3.839s] [ 92%] [32mBuilding C object CMakeFiles/simple_interfaces_pkg__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/simple_interfaces_pkg/_simple_interfaces_pkg_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.930s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/simple_interfaces_pkg/simple_interfaces_pkg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.932s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/simple_interfaces_pkg/simple_interfaces_pkg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.934s] [100%] [32m[1mLinking C shared library rosidl_generator_py/simple_interfaces_pkg/simple_interfaces_pkg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.961s] [100%] Built target simple_interfaces_pkg__rosidl_typesupport_c__pyext
+[3.963s] [100%] Built target simple_interfaces_pkg__rosidl_typesupport_fastrtps_c__pyext
+[3.965s] [100%] Built target simple_interfaces_pkg__rosidl_typesupport_introspection_c__pyext
+[3.972s] Invoked command in '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/simple_interfaces_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mahmudch/robot_ws/install/robot_node_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/simple_interfaces_pkg -- -j12 -l12
+[3.973s] Invoking command in '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/simple_interfaces_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mahmudch/robot_ws/install/robot_node_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/simple_interfaces_pkg
+[3.978s] -- Install configuration: ""
+[3.979s] -- Execute custom install script
+[3.979s] -- Symlinking: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/share/ament_index/resource_index/rosidl_interfaces/simple_interfaces_pkg
+[3.985s] -- Symlinking: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/include/simple_interfaces_pkg/simple_interfaces_pkg/msg/components_status.h
+[3.990s] -- Symlinking: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/include/simple_interfaces_pkg/simple_interfaces_pkg/msg/detail/components_status__functions.h
+[3.996s] -- Symlinking: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/include/simple_interfaces_pkg/simple_interfaces_pkg/msg/detail/components_status__struct.h
+[4.001s] -- Symlinking: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/include/simple_interfaces_pkg/simple_interfaces_pkg/msg/detail/components_status__type_support.h
+[4.006s] -- Symlinking: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/include/simple_interfaces_pkg/simple_interfaces_pkg/msg/rosidl_generator_c__visibility_control.h
+[4.011s] -- Symlinking: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/include/simple_interfaces_pkg/simple_interfaces_pkg/srv/detail/multiply_two_ints__functions.h
+[4.017s] -- Symlinking: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/include/simple_interfaces_pkg/simple_interfaces_pkg/srv/detail/multiply_two_ints__struct.h
+[4.022s] -- Symlinking: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/include/simple_interfaces_pkg/simple_interfaces_pkg/srv/detail/multiply_two_ints__type_support.h
+[4.027s] -- Symlinking: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/include/simple_interfaces_pkg/simple_interfaces_pkg/srv/multiply_two_ints.h
+[4.033s] -- Symlinking: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/share/simple_interfaces_pkg/environment/library_path.sh
+[4.040s] -- Symlinking: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/share/simple_interfaces_pkg/environment/library_path.dsv
+[4.047s] -- Symlinking: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/include/simple_interfaces_pkg/simple_interfaces_pkg/msg/detail/components_status__rosidl_typesupport_fastrtps_c.h
+[4.053s] -- Symlinking: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/include/simple_interfaces_pkg/simple_interfaces_pkg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.058s] -- Symlinking: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/include/simple_interfaces_pkg/simple_interfaces_pkg/srv/detail/multiply_two_ints__rosidl_typesupport_fastrtps_c.h
+[4.063s] -- Symlinking: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/include/simple_interfaces_pkg/simple_interfaces_pkg/msg/detail/components_status__rosidl_typesupport_introspection_c.h
+[4.069s] -- Symlinking: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/include/simple_interfaces_pkg/simple_interfaces_pkg/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.074s] -- Symlinking: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/include/simple_interfaces_pkg/simple_interfaces_pkg/srv/detail/multiply_two_ints__rosidl_typesupport_introspection_c.h
+[4.079s] -- Symlinking: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/include/simple_interfaces_pkg/simple_interfaces_pkg/msg/components_status.hpp
+[4.084s] -- Symlinking: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/include/simple_interfaces_pkg/simple_interfaces_pkg/msg/detail/components_status__builder.hpp
+[4.089s] -- Symlinking: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/include/simple_interfaces_pkg/simple_interfaces_pkg/msg/detail/components_status__struct.hpp
+[4.095s] -- Symlinking: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/include/simple_interfaces_pkg/simple_interfaces_pkg/msg/detail/components_status__traits.hpp
+[4.100s] -- Symlinking: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/include/simple_interfaces_pkg/simple_interfaces_pkg/msg/detail/components_status__type_support.hpp
+[4.105s] -- Symlinking: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/include/simple_interfaces_pkg/simple_interfaces_pkg/msg/rosidl_generator_cpp__visibility_control.hpp
+[4.110s] -- Symlinking: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/include/simple_interfaces_pkg/simple_interfaces_pkg/srv/detail/multiply_two_ints__builder.hpp
+[4.115s] -- Symlinking: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/include/simple_interfaces_pkg/simple_interfaces_pkg/srv/detail/multiply_two_ints__struct.hpp
+[4.121s] -- Symlinking: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/include/simple_interfaces_pkg/simple_interfaces_pkg/srv/detail/multiply_two_ints__traits.hpp
+[4.126s] -- Symlinking: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/include/simple_interfaces_pkg/simple_interfaces_pkg/srv/detail/multiply_two_ints__type_support.hpp
+[4.131s] -- Symlinking: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/include/simple_interfaces_pkg/simple_interfaces_pkg/srv/multiply_two_ints.hpp
+[4.139s] -- Symlinking: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/include/simple_interfaces_pkg/simple_interfaces_pkg/msg/detail/components_status__rosidl_typesupport_fastrtps_cpp.hpp
+[4.146s] -- Symlinking: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/include/simple_interfaces_pkg/simple_interfaces_pkg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.152s] -- Symlinking: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/include/simple_interfaces_pkg/simple_interfaces_pkg/srv/detail/multiply_two_ints__rosidl_typesupport_fastrtps_cpp.hpp
+[4.157s] -- Symlinking: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/include/simple_interfaces_pkg/simple_interfaces_pkg/msg/detail/components_status__rosidl_typesupport_introspection_cpp.hpp
+[4.163s] -- Symlinking: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/include/simple_interfaces_pkg/simple_interfaces_pkg/srv/detail/multiply_two_ints__rosidl_typesupport_introspection_cpp.hpp
+[4.168s] -- Symlinking: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/share/simple_interfaces_pkg/environment/pythonpath.sh
+[4.173s] -- Symlinking: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/share/simple_interfaces_pkg/environment/pythonpath.dsv
+[4.179s] -- Symlinking: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/local/lib/python3.10/dist-packages/simple_interfaces_pkg-0.0.0-py3.10.egg-info/PKG-INFO
+[4.184s] -- Symlinking: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/local/lib/python3.10/dist-packages/simple_interfaces_pkg-0.0.0-py3.10.egg-info/SOURCES.txt
+[4.189s] -- Symlinking: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/local/lib/python3.10/dist-packages/simple_interfaces_pkg-0.0.0-py3.10.egg-info/dependency_links.txt
+[4.194s] -- Symlinking: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/local/lib/python3.10/dist-packages/simple_interfaces_pkg-0.0.0-py3.10.egg-info/top_level.txt
+[4.200s] -- Symlinking: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/local/lib/python3.10/dist-packages/simple_interfaces_pkg/__init__.py
+[4.205s] -- Symlinking: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/local/lib/python3.10/dist-packages/simple_interfaces_pkg/_simple_interfaces_pkg_s.ep.rosidl_typesupport_c.c
+[4.210s] -- Symlinking: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/local/lib/python3.10/dist-packages/simple_interfaces_pkg/_simple_interfaces_pkg_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.215s] -- Symlinking: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/local/lib/python3.10/dist-packages/simple_interfaces_pkg/_simple_interfaces_pkg_s.ep.rosidl_typesupport_introspection_c.c
+[4.221s] -- Symlinking: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/local/lib/python3.10/dist-packages/simple_interfaces_pkg/libsimple_interfaces_pkg__rosidl_generator_py.so
+[4.226s] -- Symlinking: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/local/lib/python3.10/dist-packages/simple_interfaces_pkg/msg/__init__.py
+[4.231s] -- Symlinking: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/local/lib/python3.10/dist-packages/simple_interfaces_pkg/msg/_components_status.py
+[4.238s] -- Symlinking: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/local/lib/python3.10/dist-packages/simple_interfaces_pkg/msg/_components_status_s.c
+[4.246s] -- Symlinking: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/local/lib/python3.10/dist-packages/simple_interfaces_pkg/simple_interfaces_pkg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.251s] -- Symlinking: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/local/lib/python3.10/dist-packages/simple_interfaces_pkg/simple_interfaces_pkg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.257s] -- Symlinking: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/local/lib/python3.10/dist-packages/simple_interfaces_pkg/simple_interfaces_pkg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.262s] -- Symlinking: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/local/lib/python3.10/dist-packages/simple_interfaces_pkg/srv/__init__.py
+[4.268s] -- Symlinking: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/local/lib/python3.10/dist-packages/simple_interfaces_pkg/srv/_multiply_two_ints.py
+[4.273s] -- Symlinking: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/local/lib/python3.10/dist-packages/simple_interfaces_pkg/srv/_multiply_two_ints_s.c
+[4.279s] -- Up-to-date symlink: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/local/lib/python3.10/dist-packages/simple_interfaces_pkg/simple_interfaces_pkg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.279s] -- Up-to-date symlink: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/local/lib/python3.10/dist-packages/simple_interfaces_pkg/simple_interfaces_pkg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.279s] -- Up-to-date symlink: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/local/lib/python3.10/dist-packages/simple_interfaces_pkg/simple_interfaces_pkg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.279s] -- Symlinking: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/share/simple_interfaces_pkg/msg/ComponentsStatus.idl
+[4.285s] -- Symlinking: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/share/simple_interfaces_pkg/srv/MultiplyTwoInts.idl
+[4.290s] -- Symlinking: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/share/simple_interfaces_pkg/msg/ComponentsStatus.msg
+[4.295s] -- Symlinking: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/share/simple_interfaces_pkg/srv/MultiplyTwoInts.srv
+[4.300s] -- Symlinking: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/share/simple_interfaces_pkg/srv/MultiplyTwoInts_Request.msg
+[4.305s] -- Symlinking: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/share/simple_interfaces_pkg/srv/MultiplyTwoInts_Response.msg
+[4.311s] -- Symlinking: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/share/ament_index/resource_index/package_run_dependencies/simple_interfaces_pkg
+[4.316s] -- Symlinking: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/share/ament_index/resource_index/parent_prefix_path/simple_interfaces_pkg
+[4.325s] -- Symlinking: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/share/simple_interfaces_pkg/environment/ament_prefix_path.sh
+[4.339s] -- Symlinking: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/share/simple_interfaces_pkg/environment/ament_prefix_path.dsv
+[4.346s] -- Symlinking: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/share/simple_interfaces_pkg/environment/path.sh
+[4.353s] -- Symlinking: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/share/simple_interfaces_pkg/environment/path.dsv
+[4.358s] -- Symlinking: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/share/simple_interfaces_pkg/local_setup.bash
+[4.364s] -- Symlinking: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/share/simple_interfaces_pkg/local_setup.sh
+[4.369s] -- Symlinking: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/share/simple_interfaces_pkg/local_setup.zsh
+[4.375s] -- Symlinking: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/share/simple_interfaces_pkg/local_setup.dsv
+[4.380s] -- Symlinking: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/share/simple_interfaces_pkg/package.dsv
+[4.385s] -- Symlinking: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/share/ament_index/resource_index/packages/simple_interfaces_pkg
+[4.390s] -- Symlinking: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/share/simple_interfaces_pkg/cmake/rosidl_cmake-extras.cmake
+[4.396s] -- Symlinking: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/share/simple_interfaces_pkg/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.401s] -- Symlinking: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/share/simple_interfaces_pkg/cmake/ament_cmake_export_libraries-extras.cmake
+[4.406s] -- Symlinking: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/share/simple_interfaces_pkg/cmake/ament_cmake_export_targets-extras.cmake
+[4.412s] -- Symlinking: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/share/simple_interfaces_pkg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.417s] -- Symlinking: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/share/simple_interfaces_pkg/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.423s] -- Symlinking: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/share/simple_interfaces_pkg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.428s] -- Symlinking: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/share/simple_interfaces_pkg/cmake/simple_interfaces_pkgConfig.cmake
+[4.434s] -- Symlinking: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/share/simple_interfaces_pkg/cmake/simple_interfaces_pkgConfig-version.cmake
+[4.442s] -- Symlinking: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/share/simple_interfaces_pkg/package.xml
+[4.448s] -- Installing: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/lib/libsimple_interfaces_pkg__rosidl_generator_c.so
+[4.449s] -- Set runtime path of "/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/lib/libsimple_interfaces_pkg__rosidl_generator_c.so" to ""
+[4.449s] -- Installing: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/lib/libsimple_interfaces_pkg__rosidl_typesupport_fastrtps_c.so
+[4.449s] -- Set runtime path of "/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/lib/libsimple_interfaces_pkg__rosidl_typesupport_fastrtps_c.so" to ""
+[4.449s] -- Installing: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/lib/libsimple_interfaces_pkg__rosidl_typesupport_introspection_c.so
+[4.449s] -- Set runtime path of "/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/lib/libsimple_interfaces_pkg__rosidl_typesupport_introspection_c.so" to ""
+[4.449s] -- Installing: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/lib/libsimple_interfaces_pkg__rosidl_typesupport_c.so
+[4.449s] -- Set runtime path of "/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/lib/libsimple_interfaces_pkg__rosidl_typesupport_c.so" to ""
+[4.449s] -- Installing: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/lib/libsimple_interfaces_pkg__rosidl_typesupport_fastrtps_cpp.so
+[4.450s] -- Set runtime path of "/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/lib/libsimple_interfaces_pkg__rosidl_typesupport_fastrtps_cpp.so" to ""
+[4.450s] -- Installing: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/lib/libsimple_interfaces_pkg__rosidl_typesupport_introspection_cpp.so
+[4.450s] -- Set runtime path of "/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/lib/libsimple_interfaces_pkg__rosidl_typesupport_introspection_cpp.so" to ""
+[4.450s] -- Installing: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/lib/libsimple_interfaces_pkg__rosidl_typesupport_cpp.so
+[4.450s] -- Set runtime path of "/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/lib/libsimple_interfaces_pkg__rosidl_typesupport_cpp.so" to ""
+[4.480s] Listing '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/local/lib/python3.10/dist-packages/simple_interfaces_pkg'...
+[4.480s] Compiling '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/local/lib/python3.10/dist-packages/simple_interfaces_pkg/__init__.py'...
+[4.480s] Listing '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/local/lib/python3.10/dist-packages/simple_interfaces_pkg/msg'...
+[4.480s] Compiling '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/local/lib/python3.10/dist-packages/simple_interfaces_pkg/msg/__init__.py'...
+[4.480s] Compiling '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/local/lib/python3.10/dist-packages/simple_interfaces_pkg/msg/_components_status.py'...
+[4.480s] Listing '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/local/lib/python3.10/dist-packages/simple_interfaces_pkg/srv'...
+[4.480s] Compiling '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/local/lib/python3.10/dist-packages/simple_interfaces_pkg/srv/__init__.py'...
+[4.480s] Compiling '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/local/lib/python3.10/dist-packages/simple_interfaces_pkg/srv/_multiply_two_ints.py'...
+[4.483s] -- Installing: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/lib/libsimple_interfaces_pkg__rosidl_generator_py.so
+[4.483s] -- Set runtime path of "/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/lib/libsimple_interfaces_pkg__rosidl_generator_py.so" to ""
+[4.484s] -- Installing: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/share/simple_interfaces_pkg/cmake/export_simple_interfaces_pkg__rosidl_generator_cExport.cmake
+[4.484s] -- Installing: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/share/simple_interfaces_pkg/cmake/export_simple_interfaces_pkg__rosidl_generator_cExport-noconfig.cmake
+[4.484s] -- Installing: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/share/simple_interfaces_pkg/cmake/export_simple_interfaces_pkg__rosidl_typesupport_fastrtps_cExport.cmake
+[4.484s] -- Installing: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/share/simple_interfaces_pkg/cmake/export_simple_interfaces_pkg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.484s] -- Installing: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/share/simple_interfaces_pkg/cmake/simple_interfaces_pkg__rosidl_typesupport_introspection_cExport.cmake
+[4.484s] -- Installing: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/share/simple_interfaces_pkg/cmake/simple_interfaces_pkg__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.484s] -- Installing: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/share/simple_interfaces_pkg/cmake/simple_interfaces_pkg__rosidl_typesupport_cExport.cmake
+[4.484s] -- Installing: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/share/simple_interfaces_pkg/cmake/simple_interfaces_pkg__rosidl_typesupport_cExport-noconfig.cmake
+[4.484s] -- Installing: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/share/simple_interfaces_pkg/cmake/export_simple_interfaces_pkg__rosidl_generator_cppExport.cmake
+[4.484s] -- Installing: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/share/simple_interfaces_pkg/cmake/export_simple_interfaces_pkg__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.484s] -- Installing: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/share/simple_interfaces_pkg/cmake/export_simple_interfaces_pkg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.484s] -- Installing: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/share/simple_interfaces_pkg/cmake/simple_interfaces_pkg__rosidl_typesupport_introspection_cppExport.cmake
+[4.485s] -- Installing: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/share/simple_interfaces_pkg/cmake/simple_interfaces_pkg__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.485s] -- Installing: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/share/simple_interfaces_pkg/cmake/simple_interfaces_pkg__rosidl_typesupport_cppExport.cmake
+[4.485s] -- Installing: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/share/simple_interfaces_pkg/cmake/simple_interfaces_pkg__rosidl_typesupport_cppExport-noconfig.cmake
+[4.485s] -- Installing: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/share/simple_interfaces_pkg/cmake/export_simple_interfaces_pkg__rosidl_generator_pyExport.cmake
+[4.485s] -- Installing: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/simple_interfaces_pkg/share/simple_interfaces_pkg/cmake/export_simple_interfaces_pkg__rosidl_generator_pyExport-noconfig.cmake
+[4.487s] Invoked command in '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/simple_interfaces_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mahmudch/robot_ws/install/robot_node_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/simple_interfaces_pkg

@@ -1,0 +1,9 @@
+/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/car_homework_bringup/CMakeFiles/uninstall.dir
+/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/car_homework_bringup/CMakeFiles/car_homework_bringup_uninstall.dir
+/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/car_homework_bringup/CMakeFiles/test.dir
+/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/car_homework_bringup/CMakeFiles/edit_cache.dir
+/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/car_homework_bringup/CMakeFiles/rebuild_cache.dir
+/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/car_homework_bringup/CMakeFiles/list_install_components.dir
+/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/car_homework_bringup/CMakeFiles/install.dir
+/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/car_homework_bringup/CMakeFiles/install/local.dir
+/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/car_homework_bringup/CMakeFiles/install/strip.dir

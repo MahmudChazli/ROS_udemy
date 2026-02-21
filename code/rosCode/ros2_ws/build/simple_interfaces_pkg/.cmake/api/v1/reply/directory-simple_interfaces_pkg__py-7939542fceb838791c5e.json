@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "simple_interfaces_pkg__py",
+		"source" : "/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/simple_interfaces_pkg/simple_interfaces_pkg__py"
+	}
+}

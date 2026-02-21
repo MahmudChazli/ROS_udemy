@@ -1,0 +1,36 @@
+[0.797s] Invoking command in '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/lidar_py_pkg': PYTHONPATH=/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/lidar_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/lidar_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/lidar_py_pkg/build
+[1.059s] running develop
+[1.259s] Removing /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/lidar_py_pkg/lib/python3.10/site-packages/lidar-py-pkg.egg-link (link to .)
+[1.279s] Invoked command in '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/lidar_py_pkg' returned '0': PYTHONPATH=/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/lidar_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/lidar_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/lidar_py_pkg/build
+[1.280s] Invoking command in '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/src/lidar_py_pkg': PYTHONPATH=/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/lidar_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/lidar_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lidar_py_pkg build --build-base /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/lidar_py_pkg/build install --record /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/lidar_py_pkg/install.log --single-version-externally-managed install_data --force
+[1.526s] running egg_info
+[1.527s] writing ../../build/lidar_py_pkg/lidar_py_pkg.egg-info/PKG-INFO
+[1.527s] writing dependency_links to ../../build/lidar_py_pkg/lidar_py_pkg.egg-info/dependency_links.txt
+[1.528s] writing entry points to ../../build/lidar_py_pkg/lidar_py_pkg.egg-info/entry_points.txt
+[1.528s] writing requirements to ../../build/lidar_py_pkg/lidar_py_pkg.egg-info/requires.txt
+[1.528s] writing top-level names to ../../build/lidar_py_pkg/lidar_py_pkg.egg-info/top_level.txt
+[1.532s] reading manifest file '../../build/lidar_py_pkg/lidar_py_pkg.egg-info/SOURCES.txt'
+[1.533s] writing manifest file '../../build/lidar_py_pkg/lidar_py_pkg.egg-info/SOURCES.txt'
+[1.533s] running build
+[1.533s] running build_py
+[1.533s] creating /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/lidar_py_pkg/build
+[1.533s] creating /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/lidar_py_pkg/build/lib
+[1.533s] creating /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/lidar_py_pkg/build/lib/lidar_py_pkg
+[1.533s] copying lidar_py_pkg/lidar_data_node.py -> /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/lidar_py_pkg/build/lib/lidar_py_pkg
+[1.533s] copying lidar_py_pkg/__init__.py -> /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/lidar_py_pkg/build/lib/lidar_py_pkg
+[1.533s] running install
+[1.534s] running install_lib
+[1.534s] creating /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/lidar_py_pkg/lib/python3.10/site-packages/lidar_py_pkg
+[1.535s] copying /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/lidar_py_pkg/build/lib/lidar_py_pkg/lidar_data_node.py -> /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/lidar_py_pkg/lib/python3.10/site-packages/lidar_py_pkg
+[1.535s] copying /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/lidar_py_pkg/build/lib/lidar_py_pkg/__init__.py -> /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/lidar_py_pkg/lib/python3.10/site-packages/lidar_py_pkg
+[1.535s] byte-compiling /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/lidar_py_pkg/lib/python3.10/site-packages/lidar_py_pkg/lidar_data_node.py to lidar_data_node.cpython-310.pyc
+[1.536s] byte-compiling /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/lidar_py_pkg/lib/python3.10/site-packages/lidar_py_pkg/__init__.py to __init__.cpython-310.pyc
+[1.536s] running install_data
+[1.536s] copying resource/lidar_py_pkg -> /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/lidar_py_pkg/share/ament_index/resource_index/packages
+[1.537s] copying package.xml -> /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/lidar_py_pkg/share/lidar_py_pkg
+[1.537s] running install_egg_info
+[1.538s] Copying ../../build/lidar_py_pkg/lidar_py_pkg.egg-info to /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/lidar_py_pkg/lib/python3.10/site-packages/lidar_py_pkg-0.0.0-py3.10.egg-info
+[1.539s] running install_scripts
+[1.558s] Installing lidar_data_node script to /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/lidar_py_pkg/lib/lidar_py_pkg
+[1.558s] writing list of installed files to '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/lidar_py_pkg/install.log'
+[1.715s] Invoked command in '/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/src/lidar_py_pkg' returned '0': PYTHONPATH=/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/lidar_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/lidar_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lidar_py_pkg build --build-base /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/lidar_py_pkg/build install --record /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/lidar_py_pkg/install.log --single-version-externally-managed install_data --force

@@ -1,0 +1,9 @@
+/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/simple_bringup/CMakeFiles/uninstall.dir
+/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/simple_bringup/CMakeFiles/simple_bringup_uninstall.dir
+/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/simple_bringup/CMakeFiles/test.dir
+/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/simple_bringup/CMakeFiles/edit_cache.dir
+/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/simple_bringup/CMakeFiles/rebuild_cache.dir
+/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/simple_bringup/CMakeFiles/list_install_components.dir
+/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/simple_bringup/CMakeFiles/install.dir
+/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/simple_bringup/CMakeFiles/install/local.dir
+/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/simple_bringup/CMakeFiles/install/strip.dir

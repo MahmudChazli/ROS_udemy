@@ -1,0 +1,1 @@
+/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/simple_bringup/ament_cmake_core/simple_bringupConfig-version.cmake

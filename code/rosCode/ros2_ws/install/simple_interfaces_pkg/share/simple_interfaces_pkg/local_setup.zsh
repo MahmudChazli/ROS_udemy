@@ -1,0 +1,1 @@
+/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/simple_interfaces_pkg/ament_cmake_environment_hooks/local_setup.zsh

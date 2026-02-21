@@ -1,0 +1,1 @@
+/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/simple_interfaces_pkg/rosidl_generator_py/simple_interfaces_pkg/_simple_interfaces_pkg_s.ep.rosidl_typesupport_introspection_c.c

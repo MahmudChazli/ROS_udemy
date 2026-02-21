@@ -1,0 +1,17 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/simple_interfaces_pkg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/simple_interfaces_pkg/msg/detail/components_status__type_support.c.o"
+  "CMakeFiles/simple_interfaces_pkg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/simple_interfaces_pkg/msg/detail/components_status__type_support.c.o.d"
+  "CMakeFiles/simple_interfaces_pkg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/simple_interfaces_pkg/srv/detail/multiply_two_ints__type_support.c.o"
+  "CMakeFiles/simple_interfaces_pkg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/simple_interfaces_pkg/srv/detail/multiply_two_ints__type_support.c.o.d"
+  "libsimple_interfaces_pkg__rosidl_typesupport_introspection_c.pdb"
+  "libsimple_interfaces_pkg__rosidl_typesupport_introspection_c.so"
+  "rosidl_typesupport_introspection_c/simple_interfaces_pkg/msg/detail/components_status__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/simple_interfaces_pkg/msg/detail/components_status__type_support.c"
+  "rosidl_typesupport_introspection_c/simple_interfaces_pkg/srv/detail/multiply_two_ints__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/simple_interfaces_pkg/srv/detail/multiply_two_ints__type_support.c"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/simple_interfaces_pkg__rosidl_typesupport_introspection_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

@@ -24,6 +24,11 @@
 - ros2 launch gazebo_ros gazebo.launch.py (launches gazebo)
 	(after doing this run the urdf/xacro files)
 	(and use the run gazebo_ros command to load the file)
+	
+	(if you are launching a gazebo file and it keeps giving you this error)
+	(:type = gazebo::rendering::Camera*]: Assertion `px != 0' failed.)
+	(try sourcing gazebo ". /usr/share/gazebo/setup.sh")
+	(the dot means source you can type "source /usr/share/gazebo/setup.sh")
 
 
 
@@ -45,8 +50,14 @@
 	(this runs the joint state publisher)
 	(it's the thing that lets you play with the variables)
 	
+- gazebo --verbose -s libgazebo_ros_init.so -s libgazebo_ros_factory.so
+	(call this before spawning your robot)
+	
 - ros2 run gazebo_ros spawn_entity.py -topic robot_description -entity my_robot
 	(after launching gazebo and runing you urdf/xacro files you use this to load them)
+	
+- ros2 service call /delete_entity gazebo_msgs/srv/DeleteEntity "{name: 'my_robot'}"
+	(this deletes your robot)
 	
 	
 

@@ -1,0 +1,47 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/car_homework_description
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/car_homework_description/share/car_homework_description//urdf/camera.xacro
+-- Symlinking: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/car_homework_description/share/car_homework_description//urdf/car.xacro
+-- Symlinking: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/car_homework_description/share/car_homework_description//urdf/car_old.urdf
+-- Symlinking: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/car_homework_description/share/car_homework_description//urdf/lidar.xacro
+-- Symlinking: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/car_homework_description/share/car_homework_description//urdf/macro.xacro
+-- Symlinking: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/car_homework_description/share/car_homework_description//urdf/main.xacro
+-- Symlinking: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/car_homework_description/share/car_homework_description//urdf/material.xacro
+-- Symlinking: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/car_homework_description/share/car_homework_description//urdf/properties.xacro
+-- Symlinking: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/car_homework_description/share/car_homework_description//urdf/properties_gazebo.xacro
+-- Symlinking: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/car_homework_description/share/car_homework_description//launch/display.launch.py
+-- Symlinking: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/car_homework_description/share/car_homework_description//launch/display.launch.xml
+-- Symlinking: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/car_homework_description/share/car_homework_description//rviz/urdf_config.rviz
+-- Symlinking: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/car_homework_description/share/ament_index/resource_index/package_run_dependencies/car_homework_description
+-- Symlinking: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/car_homework_description/share/ament_index/resource_index/parent_prefix_path/car_homework_description
+-- Symlinking: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/car_homework_description/share/car_homework_description/environment/ament_prefix_path.sh
+-- Symlinking: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/car_homework_description/share/car_homework_description/environment/ament_prefix_path.dsv
+-- Symlinking: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/car_homework_description/share/car_homework_description/environment/path.sh
+-- Symlinking: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/car_homework_description/share/car_homework_description/environment/path.dsv
+-- Symlinking: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/car_homework_description/share/car_homework_description/local_setup.bash
+-- Symlinking: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/car_homework_description/share/car_homework_description/local_setup.sh
+-- Symlinking: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/car_homework_description/share/car_homework_description/local_setup.zsh
+-- Symlinking: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/car_homework_description/share/car_homework_description/local_setup.dsv
+-- Symlinking: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/car_homework_description/share/car_homework_description/package.dsv
+-- Symlinking: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/car_homework_description/share/ament_index/resource_index/packages/car_homework_description
+-- Symlinking: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/car_homework_description/share/car_homework_description/cmake/car_homework_descriptionConfig.cmake
+-- Symlinking: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/car_homework_description/share/car_homework_description/cmake/car_homework_descriptionConfig-version.cmake
+-- Symlinking: /home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/install/car_homework_description/share/car_homework_description/package.xml

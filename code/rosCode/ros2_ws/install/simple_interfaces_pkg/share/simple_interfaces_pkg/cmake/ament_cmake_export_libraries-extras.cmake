@@ -1,0 +1,1 @@
+/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/build/simple_interfaces_pkg/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake

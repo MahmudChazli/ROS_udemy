@@ -1,0 +1,7 @@
+{
+  "package_name": "simple_interfaces_pkg",
+  "non_idl_tuples": [
+    "/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/src/simple_interfaces_pkg:msg/ComponentsStatus.msg",
+    "/home/mahmudch/Desktop/ROS_udemy/code/rosCode/ros2_ws/src/simple_interfaces_pkg:srv/MultiplyTwoInts.srv"
+  ]
+}
